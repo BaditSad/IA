@@ -1,0 +1,16 @@
+{
+    "introduction": [
+            "Je suis une IA creer dans le but de venir en aide aux entreprise dans le besoin. J'ai été penser et creer en janvier 2023 par Brieuc. Aujourd'hui je suis une version alpha"
+    ],
+    "creator":[
+        "Mon créateur est Brieuc Dumortier",
+        "J'ai été creer par Brieuc Dumortier",
+        "C'est Brieuc Dumortier qui est à l'origine de mon éxistence"
+    ],
+    "error": [
+        "Désolé, je n'ai pas compris votre demande",
+        "Excusez-moi mais je n'ai pas compris",
+        "Pouvez-vous reformuler votre demande ?"
+    ]
+    
+}

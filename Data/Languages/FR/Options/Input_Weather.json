@@ -1,0 +1,13 @@
+{
+    "weather_tomorrow": [
+        "quel temps fait-il demain",
+        "quel temps fait il demain"
+    ],
+    "weather_now": [
+        "quel temps fait-il",
+        "quel temps fait il"
+    ],
+    "temperature": [
+        "temperature"
+]
+}

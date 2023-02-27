@@ -1,0 +1,33 @@
+{
+    "multiplication": [
+            "fois",
+            "X",
+            "x",
+            "multiplies",
+            "multiplie",
+            "multiplier",
+            "multiplié",
+            "*"
+    ],
+    "addition": [
+        "plus",
+        "additionne",
+        "+"
+    ],
+    "soustraction":[
+        "moins",
+        "-"
+    ],
+    "division":[
+        "diviser",
+        "divise",
+        "divises",
+        "divisé",
+        "/"
+    ],
+    "modulo":[
+        "modulo",
+        "%"
+    ]
+    
+}

@@ -1,0 +1,32 @@
+{
+    "calculator": [
+            "calcule-moi",
+            "calcul",
+            "calcule",
+            "additionne",
+            "soustré",
+            "multiplie",
+            "divise"
+    ],
+    "date": [
+        "donne-moi la date",
+        "donne-moi la date d'aujourd'hui",
+        "dis-moi la date",
+        "quel jour on est"
+    ],
+    "time": [
+        "quelle heure est-il",
+        "quelle heure est il",
+        "donne-moi l'heure"
+    ],
+    "weather": [
+        "quel temps fait-il",
+        "quel temps fait il",
+        "quelle est la température"
+    ],
+    "stop":[
+        "éteins-toi",
+        "arrête-toi"
+    ]
+    
+}
