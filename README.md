@@ -1,9 +1,9 @@
 <div align="center">
+  <img src=".github/assets/banner.png" alt="Voice Assistant banner" width="100%" />
 
   <h1>IA</h1>
-
   <p>
-    Assistant vocal personnel en français, inspiré des assistants type Jarvis
+    Personal voice assistant in French, inspired by Jarvis-style assistants
   </p>
 
 <p>
@@ -14,64 +14,66 @@
     <img src="https://img.shields.io/github/languages/top/BaditSad/IA" alt="top language" />
   </a>
 </p>
-
 </div>
 
 <br />
 
-# Table des matières
+## :notebook_with_decorative_cover: Table of Contents
 
-- [À propos](#à-propos)
-  * [Stack technique](#stack-technique)
-  * [Fonctionnalités](#fonctionnalités)
-- [Démarrage](#démarrage)
-  * [Prérequis](#prérequis)
-  * [Installation](#installation)
-  * [Lancer en local](#lancer-en-local)
-- [Contact](#contact)
+- [About](#star2-about)
+  * [Tech Stack](#space_invader-tech-stack)
+  * [Features](#dart-features)
+- [Getting Started](#toolbox-getting-started)
+  * [Prerequisites](#bangbang-prerequisites)
+  * [Installation](#gear-installation)
+  * [Run Locally](#running-run-locally)
+- [Contact](#handshake-contact)
 
-## À propos
+## :star2: About
 
-Ce projet est un assistant vocal personnel écrit en Python. Il écoute une commande via le microphone, la transcrit avec la reconnaissance vocale de Google en français, puis l'analyse pour choisir une action à exécuter parmi un ensemble d'options prédéfinies.
+This project is a personal voice assistant written in Python. It listens for a command through the microphone,
+transcribes it with Google's speech recognition in French, then analyzes it to pick an action from a set of
+predefined options.
 
-Les données utilisées par l'assistant (villes et pays, configuration, phrases de conversation) sont stockées en local sous forme de fichiers JSON, ce qui rend le comportement de l'assistant facile à étendre sans toucher au code.
+The data used by the assistant (cities and countries, configuration, conversation phrases) is stored locally as
+JSON files, which makes the assistant's behavior easy to extend without touching the code.
 
-### Stack technique
+### :space_invader: Tech Stack
 
 <details>
-  <summary>Langage et bibliothèques</summary>
+  <summary>Language and Libraries</summary>
   <ul>
     <li><a href="https://www.python.org/">Python</a></li>
     <li><a href="https://pypi.org/project/SpeechRecognition/">SpeechRecognition</a></li>
-    <li>Google Speech Recognition (reconnaissance vocale en ligne)</li>
+    <li>Google Speech Recognition (online speech recognition)</li>
   </ul>
 </details>
 
 <details>
-  <summary>Données</summary>
+  <summary>Data</summary>
   <ul>
-    <li>Fichiers JSON locaux (configuration, villes, conversations)</li>
+    <li>Local JSON files (configuration, cities, conversations)</li>
   </ul>
 </details>
 
-### Fonctionnalités
+### :dart: Features
 
-- Écoute et transcription vocale en français
-- Calculatrice vocale
-- Consultation de la date et de l'heure
-- Consultation de la météo
-- Base de données locale de pays et villes pour enrichir les réponses
-- Mode debug pour tester une commande texte sans passer par le micro
+- Voice listening and transcription in French
+- Voice-controlled calculator
+- Date and time lookup
+- Weather lookup
+- Local database of countries and cities to enrich answers
+- Debug mode to test a text command without using the microphone
 
-## Démarrage
+## :toolbox: Getting Started
 
-### Prérequis
+### :bangbang: Prerequisites
 
-- Python 3 installé
-- Un microphone fonctionnel
-- Une connexion internet (la reconnaissance vocale passe par l'API Google)
+- Python 3 installed
+- A working microphone
+- An internet connection (speech recognition goes through the Google API)
 
-### Installation
+### :gear: Installation
 
 ```bash
 git clone https://github.com/BaditSad/IA.git
@@ -79,15 +81,15 @@ cd IA
 pip install SpeechRecognition pyaudio
 ```
 
-### Lancer en local
+### :running: Run Locally
 
 ```bash
 python Main.py
 ```
 
-Le mode `DEBUG` dans `Main.py` permet de tester une commande texte fixe sans passer par le microphone.
+The `DEBUG` mode in `Main.py` allows testing a fixed text command without using the microphone.
 
-## Contact
+## :handshake: Contact
 
 Brieuc Dumortier
 
